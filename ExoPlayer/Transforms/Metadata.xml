@@ -38,7 +38,8 @@
   <!-- TtmlNode has no declared visibility but needs to be public because TtmlSubtitle exposes it and is public -->
   <attr path="/api/package[@name='com.google.android.exoplayer.text.ttml']/class[@name='TtmlNode']" name="visibility">public</attr>
   <attr path="/api/package[@name='com.google.android.exoplayer.text.ttml']/class[@name='TtmlStyle']" name="visibility">public</attr>
-
+  <attr path="/api/package[@name='com.google.android.exoplayer.text.ttml']/class[@name='TtmlRegion']" name="visibility">public</attr>
+	
   <attr path="/api/package[@name='com.google.android.exoplayer.extractor.webm']/interface[@name='EbmlReaderOutput']" name="visibility">internal</attr>
   <attr path="/api/package[@name='com.google.android.exoplayer.extractor.mp4']/class[@name='TrackSampleTable']" name="visibility">public</attr>
   <attr path="/api/package[@name='com.google.android.exoplayer.extractor.ts']/class[@name='ElementaryStreamReader']" name="visibility">public</attr>
@@ -63,5 +64,8 @@
 
   <attr path="/api/package[@name='com.google.android.exoplayer.chunk']/class[@name='Chunk']" name="managedName">ExoPlayerChunk</attr>
   <attr path="/api/package[@name='com.google.android.exoplayer.util']/class[@name='Util']" name="managedName">ExoPlayerUtil</attr>
+
+  <attr path="/api/package[@name='com.google.android.exoplayer.extractor.mp4']/class[@name='DefaultSampleValues']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.google.android.exoplayer.extractor.mp4']/class[@name='TrackFragment']" name="visibility">public</attr>
 
 </metadata>
