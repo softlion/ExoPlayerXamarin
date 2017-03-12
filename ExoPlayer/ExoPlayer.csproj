@@ -48,6 +48,7 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Additions\PlaybackState.cs" />
     <Compile Include="Additions\IExoMediaDrmOnEventListener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
